@@ -1,0 +1,33 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="752" Width="1834">
+    <Grid>
+        <Button x:Name="numOne" Content="1" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="numOne_Click"/>
+        <Button x:Name="numTwo" Content="2" HorizontalAlignment="Left" Margin="160,134,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="numTwo_Click"/>
+        <Button x:Name="numThree" Content="3" HorizontalAlignment="Left" Margin="310,134,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="numThree_Click"/>
+        <Button x:Name="numFour" Content="4" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="numFour_Click"/>
+        <Button x:Name="numFive" Content="5" HorizontalAlignment="Left" Margin="160,275,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="numFive_Click"/>
+        <Button x:Name="numSix" Content="6" HorizontalAlignment="Left" Margin="310,275,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="numSix_Click"/>
+        <Button x:Name="numSeven" Content="7" HorizontalAlignment="Left" Margin="10,416,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="numSeven_Click"/>
+        <Button x:Name="numEight" Content="8" HorizontalAlignment="Left" Margin="160,416,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="numEight_Click"/>
+        <Button x:Name="numNine" Content="9" HorizontalAlignment="Left" Margin="310,416,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="numNine_Click"/>
+        <Button x:Name="numZero" Content="0" HorizontalAlignment="Left" Margin="160,556,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="numZero_Click"/>
+        <Button x:Name="GetAnswer" Content="=" HorizontalAlignment="Left" Margin="310,556,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="GetAnswer_Click"/>
+        <Button x:Name="Point" Content="." HorizontalAlignment="Left" Margin="10,556,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="Point_Click"/>
+        <TextBox x:Name="Text" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1814" Height="112" FontSize="72" TextInput="Text_TextInput"/>
+        <Button x:Name="Plus" Content="+" HorizontalAlignment="Left" Margin="490,134,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="Plus_Click"/>
+        <Button x:Name="Minus" Content="-" HorizontalAlignment="Left" Margin="640,134,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="Minus_Click"/>
+        <Button x:Name="Multiple" Content="*" HorizontalAlignment="Left" Margin="640,275,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="Multiple_Click"/>
+        <Button x:Name="Division" Content="/" HorizontalAlignment="Left" Margin="490,275,0,0" VerticalAlignment="Top" Height="134" Width="143" FontSize="72" Click="Division_Click"/>
+        <Button x:Name="LeftBracket" Content="(" HorizontalAlignment="Left" Margin="490,556,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="LeftBracket_Click"/>
+        <Button x:Name="RightBracket" Content=")" HorizontalAlignment="Left" Margin="640,556,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="RightBracket_Click"/>
+        <Button x:Name="numPi" Content="pi" HorizontalAlignment="Left" Margin="490,416,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="numPi_Click"/>
+        <Button x:Name="ClearButton" Content="CLR" HorizontalAlignment="Left" Margin="788,134,0,0" VerticalAlignment="Top" Height="135" Width="143" FontSize="72" Click="ClearButton_Click"/>
+
+    </Grid>
+</Window>
