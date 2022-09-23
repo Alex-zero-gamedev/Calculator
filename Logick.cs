@@ -29,7 +29,7 @@ namespace Calculator
         {
             string text = this.t.Text;
             text = text.Replace("pi", Math.PI.ToString());
-
+            text = text.Replace(",", ".");
             this.t.Text += $"={new DataTable().Compute(text, "")}";
         }
     }
